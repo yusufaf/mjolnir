@@ -19,3 +19,6 @@ pnpm-debug.log*
 Thumbs.db
 *.suo
 *.user
+
+# Local GPLv3 reference sources (not redistributed)
+.reference/
