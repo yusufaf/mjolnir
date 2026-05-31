@@ -2,6 +2,8 @@
 
 Visual editor that generates config for the [Mjolnir Xbox App Styler](../mods/mjolnir-xbox-styler.wh.cpp) Windhawk mod.
 
+**Live:** https://yusufaf.github.io/mjolnir/ (auto-deploys from `main` via GitHub Actions).
+
 Pick colors per UI target → get copy-paste **Control styles** config, a shareable **theme JSON**, or a **C++ Theme block** to bake a preset into the mod.
 
 ## Dev

@@ -4,6 +4,8 @@ Theming / customization for the **Xbox PC app** (`XboxPcApp.exe`) — like [Mill
 
 Named after the Halo Spartan armor system: reskinning the armor = retheming the app.
 
+**[🎨 Theme editor (live)](https://yusufaf.github.io/mjolnir/)** — pick colors, get config to paste into the mod.
+
 ## How it works
 
 The Xbox PC app is built on **React Native for Windows** — a thin `Windows.UI.Xaml` shell hosting a `ReactRootView` that renders the UI as XAML primitives. There is no web layer to inject CSS/JS into, so Mjolnir works at the XAML visual-tree level via a [Windhawk](https://windhawk.net/) mod: it hooks XAML diagnostics, watches visual-tree changes, and overrides element properties (`Foreground`, `Background`, `BorderBrush`, …), targeting elements by their `AutomationId`.
